@@ -1,0 +1,38 @@
+/* SINGLE PRODUCT */
+.single-product{
+    max-width: 300px;
+}
+.button{
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.product-image {
+  width: 250px;
+  object-fit: contain;
+}
+
+/* HOME */
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.4rem;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+/* Cartpage */
+.selected-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2.4rem;
+}
